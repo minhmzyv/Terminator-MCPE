@@ -44,7 +44,7 @@ class SetupWizard{
 	}
 
 	public function run(){
-		echo "[*] PocketMine-MP set-up wizard\n";
+		echo "[*] Terminator\n";
 		echo "[*] Please select a language:\n";
 		$langs = BaseLang::getLanguageList();
 		foreach($langs as $short => $native){
@@ -84,7 +84,7 @@ class SetupWizard{
 	}
 
 	private function showLicense(){
-		echo $this->lang->get("welcome_to_pocketmine") . "\n";
+		echo $this->lang->get("welcome_to_terminator") . "\n";
 		echo <<<LICENSE
 
   This program is free software: you can redistribute it and/or modify
@@ -211,8 +211,8 @@ LICENSE;
 
 	private function endWizard(){
 		echo "[*] " . $this->lang->get("you_have_finished") . "\n";
-		echo "[*] " . $this->lang->get("pocketmine_plugins") . "\n";
-		echo "[*] " . $this->lang->get("pocketmine_will_start") . "\n\n\n";
+		echo "[*] " . $this->lang->get("terminator_plugins") . "\n";
+		echo "[*] " . $this->lang->get("terminator_will_start") . "\n\n\n";
 		sleep(4);
 	}
 
