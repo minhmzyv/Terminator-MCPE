@@ -219,6 +219,7 @@ interface BlockIds{
 	const GRASS_PATH = 198;
 	const ITEM_FRAME_BLOCK = 199;
     const PURPUR_STAIRS = 203;
+    const END_BRICKS = 206;
     const END_ROD = 208;
 
 
