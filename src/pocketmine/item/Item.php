@@ -153,6 +153,7 @@ class Item implements ItemIds, \JsonSerializable{
 			self::$list[self::BUCKET] = Bucket::class;
 			self::$list[self::MINECART] = Minecart::class;
 			self::$list[self::IRON_DOOR] = IronDoor::class;
+            self::$list[self::DARK_OAK_DOOR] = DarkOakDoor::class;
 			self::$list[self::REDSTONE] = Redstone::class;
 			self::$list[self::SNOWBALL] = Snowball::class;
 			self::$list[self::BOAT] = Boat::class;

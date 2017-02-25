@@ -140,6 +140,7 @@ class Block extends Position implements BlockIds, Metadatable{
 			self::$list[self::LEVER] = Lever::class;
 			self::$list[self::STONE_PRESSURE_PLATE] = StonePressurePlate::class;
 			self::$list[self::IRON_DOOR_BLOCK] = IronDoor::class;
+            self::$list[self::DARK_OAK_DOOR_BLOCK] = DarkOakDoor::class;
 			self::$list[self::WOODEN_PRESSURE_PLATE] = WoodenPressurePlate::class;
 			self::$list[self::REDSTONE_ORE] = RedstoneOre::class;
 			self::$list[self::GLOWING_REDSTONE_ORE] = GlowingRedstoneOre::class;
