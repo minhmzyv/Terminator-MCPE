@@ -26,7 +26,7 @@ use pocketmine\item\Tool;
 
 class NetherQuartzOre extends Solid{
 
-    protected $id = self::COAL_ORE;
+    protected $id = self::NETHER_QUARTZ_ORE;
 
     public function __construct(){
 
