@@ -125,6 +125,7 @@ class Block extends Position implements BlockIds, Metadatable{
             self::$list[self::PURPUR_STAIRS] = PurpurStairs::class;
 
 			self::$list[self::DIAMOND_ORE] = DiamondOre::class;
+            self::$list[self::NETHER_QUARTZ_ORE] = NetherQuartzOre::class;
             self::$list[self::RED_SANDSTONE_STAIRS] = RedSandstoneStairs::class;
             self::$list[self::SLIME_BLOCK] = SlimeBlock::class;
 			self::$list[self::DIAMOND_BLOCK] = Diamond::class;
