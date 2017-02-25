@@ -127,6 +127,7 @@ class Block extends Position implements BlockIds, Metadatable{
 			self::$list[self::DIAMOND_BLOCK] = Diamond::class;
 			self::$list[self::WORKBENCH] = Workbench::class;
             self::$list[self::BEACON] = Beacon::class;
+            self::$list[self::END_ROD] = EndRod::class;
 			self::$list[self::WHEAT_BLOCK] = Wheat::class;
 			self::$list[self::FARMLAND] = Farmland::class;
 			self::$list[self::FURNACE] = Furnace::class;

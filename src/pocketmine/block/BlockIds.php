@@ -218,6 +218,7 @@ interface BlockIds{
 	const DARK_OAK_DOOR_BLOCK = 197;
 	const GRASS_PATH = 198;
 	const ITEM_FRAME_BLOCK = 199;
+    const END_ROD = 208;
 
 	const PODZOL = 243;
 	const BEETROOT_BLOCK = 244;
